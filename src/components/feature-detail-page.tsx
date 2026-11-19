@@ -14,6 +14,7 @@ export function detailMetadata(detail: FeatureDetail): Metadata {
     description,
     alternates: { canonical: url },
     openGraph: { type: "article", locale: "fa_IR", title: `${detail.title} | ترانک`, description, url, images: ["/og.png"] },
+    twitter: { card: "summary_large_image", title: `${detail.title} | ترانک`, description, images: ["/og.png"] },
   };
 }
 
