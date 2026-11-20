@@ -14,6 +14,7 @@ export function SiteHeader() {
           <Link href="/#features">امکانات</Link>
           <Link href="/#how-it-works">نحوه کار</Link>
           <Link href="/#for-whom">مناسب چه مجموعه‌هایی؟</Link>
+          <Link href="/#pricing">قیمت‌ها</Link>
           <Link href="/#faq">سوالات متداول</Link>
         </nav>
         <a className="header-cta" href={loginUrl}>ورود / شروع <Icon name="arrow" size={17}/></a>
@@ -23,6 +24,7 @@ export function SiteHeader() {
             <Link href="/#features">امکانات ترانک</Link>
             <Link href="/#how-it-works">نحوه کار</Link>
             <Link href="/#for-whom">مناسب چه مجموعه‌هایی؟</Link>
+            <Link href="/#pricing">قیمت‌ها و اشتراک</Link>
             <Link href="/#faq">سوالات متداول</Link>
             <a href={loginUrl}>ورود و شروع ثبت مجموعه</a>
           </nav>

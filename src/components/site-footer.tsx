@@ -14,6 +14,7 @@ export function SiteFooter() {
           <Link href="/features/play-packages">بسته‌های بازی</Link>
           <Link href="/features/classes">کلاس و رزرو</Link>
           <Link href="/features/accounting">حسابداری و گزارش</Link>
+          <Link href="/#pricing">قیمت‌ها و اشتراک</Link>
           <a href={loginUrl}>ورود به ترانک</a>
         </nav>
       </div>

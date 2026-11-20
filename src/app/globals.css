@@ -122,6 +122,14 @@ h2{font-weight:850;font-size:clamp(27px,3vw,41px);line-height:1.6;letter-spacing
 .feature-card p{font-size:12.5px;color:#667386;line-height:2;flex:1;margin:0}
 .text-link{display:inline-flex;gap:7px;align-items:center;font-size:12.5px;font-weight:800;color:var(--blue);margin-top:13px;width:fit-content}
 .text-link:hover{color:var(--blue-dark)}
+.pricing-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding-bottom: 20px;}
+.pricing-card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:24px}
+.pricing-card span{color:var(--blue);font-size:12px;font-weight:800}
+.pricing-card.pricing-free{border:2px solid #258e73;background:#f2fbf7}
+.pricing-card.pricing-free span{color:#258e73}
+.pricing-card h3{font-size:17px;margin:10px 0 6px}
+.pricing-card p,.pricing-note{color:var(--muted);font-size:13px;line-height:2}
+.pricing-note{max-width:850px;margin:25px 0}
 .workflow-section{background:#f0f4ff}
 .workflow-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:96px;align-items:center}
 .workflow-head h2{font-size:42px;margin:12px 0 15px}
@@ -226,7 +234,7 @@ h2{font-weight:850;font-size:clamp(27px,3vw,41px);line-height:1.6;letter-spacing
   .mobile-menu nav{position:absolute;top:49px;left:0;background:#fff;width:270px;padding:12px;border:1px solid #e3e7ef;border-radius:13px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:1px}
   .mobile-menu nav a{font-size:13px;padding:9px 12px;border-radius:7px}.mobile-menu nav a:hover{background:#f2f5fc}
   .hero-grid{grid-template-columns:1fr}.hero-section{padding:65px 0}.hero-copy{max-width:720px}.hero-copy h1{max-width:710px}.hero-description{max-width:720px}.hero-art{max-width:660px;width:100%;margin:10px auto 0}
-  .features-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-card{min-height:235px}
+  .features-grid,.pricing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-card{min-height:235px}
   .workflow-grid,.detail-grid,.faq-layout{grid-template-columns:1fr;gap:38px}.workflow-head p,.faq-side p{max-width:650px}.detail-illustration{max-width:650px;width:100%}.faq-side h2{margin-bottom:8px}
   .strip-inner{flex-wrap:wrap;justify-content:center;gap:8px 18px;padding:18px 0}
   .section-heading{align-items:flex-start;flex-direction:column;gap:10px}.section-heading p{max-width:650px}
@@ -243,6 +251,7 @@ h2{font-weight:850;font-size:clamp(27px,3vw,41px);line-height:1.6;letter-spacing
   .features-grid{gap:11px}.feature-card{padding:19px 16px;min-height:250px}.feature-icon{width:42px;height:42px}.feature-card-top{margin-bottom:14px}.feature-card h3{font-size:15px}.feature-card p{font-size:11.5px}.feature-card .text-link{font-size:10.5px}
   .workflow-head h2,.detail-copy h2{font-size:30px}.workflow-steps{padding:23px 19px}.workflow-step{gap:14px}.workflow-step:not(:last-child):before{right:18px}.step-number{width:38px;height:38px}.workflow-step:not(:last-child):before{top:38px}.workflow-step h3{font-size:16px}.workflow-step p{font-size:12.5px}
   .audience-grid{grid-template-columns:1fr;gap:12px}.audience-card{padding:24px}.audience-icon{margin-bottom:14px}.audience-note{text-align:right;line-height:2}
+  .pricing-grid{grid-template-columns:1fr}.pricing-card{padding:20px}
   .detail-illustration{padding:30px;min-height:300px}.detail-copy p{font-size:13px}.faq-side h2{font-size:30px}.faq-item summary{font-size:12.5px}.faq-item p{font-size:12.5px}
   .cta-section{padding:12px 0 60px}.cta-panel{padding:53px 19px;border-radius:20px}.cta-panel h2{font-size:28px}.cta-panel p{font-size:12.5px}.cta-panel small{font-size:10px}
   .site-footer{padding-top:38px}.footer-inner,.footer-bottom{flex-direction:column;gap:20px}.footer-inner{padding-bottom:25px}.site-footer nav{justify-content:flex-start;gap:10px 20px}.site-footer nav a{font-size:11px}

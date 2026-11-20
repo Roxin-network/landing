@@ -4,7 +4,7 @@ A minimal, TypeScript/Next.js App Router public marketing website for **تران
 
 ## Content provenance
 
-Based on the Codex audit supplied on 2026-11-17 (repository HEAD `96bf46d`). Its statements are **code-backed capabilities**, not independently tested production behavior. No real screenshots, pricing, testimonials, trial periods, offline support, POS/RFID integration or guaranteed AI/search outcomes have been asserted.
+Based on the Codex audit supplied on 2026-11-17 (repository HEAD `96bf46d`). Its statements are **code-backed capabilities**, not independently tested production behavior. The temporary zero-price trial is based on the product owner's statement; confirm the live catalog before publication. No real screenshots, fixed trial duration, testimonials, offline support, POS/RFID integration or guaranteed AI/search outcomes have been asserted.
 
 ## Stack
 
@@ -60,7 +60,7 @@ Two integration patterns are possible:
 - [ ] Validate sitemap, robots and structured data after proxy integration.
 - [ ] Set staging `SITE_INDEXABLE=false` and production `SITE_INDEXABLE=true`.
 - [ ] Capture genuine screenshots from operational UI with **synthetic** child/family data; replace the labeled conceptual visual only if accurate.
-- [ ] Decide commercial price/plan messaging; do not infer it from zero-price seed.
+- [ ] Confirm the current trial offer and live catalog; update the pricing section whenever prices or terms change.
 - [ ] Add actual company identity, contact method, privacy terms and support conditions after verification.
 - [ ] Verify cookie, authorization and personal-data boundaries in the integrated deployment.
 - [ ] Measure Core Web Vitals on mobile; tune fonts and actual screenshot media.
